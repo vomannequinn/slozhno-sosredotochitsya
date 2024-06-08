@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 10px 7px 10px 13px;
 }
 
 button:focus, a:focus {
@@ -24,7 +23,7 @@ button:focus, a:focus {
   align-items: center;
   block-size: calc(100vh - 20px);
   position: relative;
-
+  padding: 10px 7px 10px 13px;
 }
 
 .header__theme-menu-list {
@@ -149,6 +148,7 @@ button:focus, a:focus {
   display: grid;
   gap: 52px;
   margin: 52px 0 46px;
+  padding: 0 7px 0 13px;
 }
 
 .content__article-question {
@@ -212,7 +212,7 @@ button:focus, a:focus {
 }
 
 .footer {
-  padding: 276px 0;
+  padding: 276px 7px 0 13px;
   position: relative;
   text-align: center;
 }
