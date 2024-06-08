@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme-light { 
+:root.theme-light {
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --title-content-color: var(--text-color);
@@ -24,7 +24,7 @@
     --accent-color-hover: rgba(50, 49, 45, 0.4);
     --accent-header-text-color: #FFC2E6;
     --bg-color: #353430;
-    --bg-img-header: url(../images/cover-image-light.png);      
+    --bg-img-header: url(../images/cover-image-light.png);
     --button-color: var(--text-color);
   }
 }
