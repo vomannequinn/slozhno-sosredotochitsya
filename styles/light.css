@@ -48,6 +48,6 @@
 
 
 .page.theme_light .header__dark-decoration::before,
-.page.theme_light .header__dark-decoration::after  {
+.page.theme_light .header__dark-decoration::after {
   display: none;
 }
