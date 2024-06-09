@@ -21,7 +21,7 @@ button:focus, a:focus {
   grid-template-rows: min-content 1fr;
   justify-items: end;
   align-items: center;
-  block-size: calc(100vh - 20px);
+  block-size: 100vh;
   position: relative;
   padding: 10px 7px 10px 13px;
 }
@@ -212,6 +212,7 @@ button:focus, a:focus {
 }
 
 .footer {
+  block-size: 100vh;
   padding: 276px 7px 0 13px;
   position: relative;
   text-align: center;
