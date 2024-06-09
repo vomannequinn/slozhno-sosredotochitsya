@@ -335,7 +335,7 @@ button:focus, a:focus {
   }
 
   .footer {
-    block-size: calc(100vh - 20px);
+    block-size: 100vh;
     padding-top: 45vh;
     padding-left: 3vw;
   }
