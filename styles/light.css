@@ -27,6 +27,13 @@
     --bg-img-header: url(../images/cover-image-light.png);
     --button-color: var(--text-color);
   }
+
+  .header__dark-decoration::before,
+  .header__dark-decoration::after {
+  display: none;
+}
+
+
 }
 
 .page.theme_light {
@@ -45,7 +52,7 @@
 }
 
 
-.page.theme_light .header__dark-decoration::before,
-.page.theme_light .header__dark-decoration::after {
+.theme_light .header__dark-decoration::before,
+.theme_light .header__dark-decoration::after {
   display: none;
 }
