@@ -10,7 +10,7 @@
   --title-content-color: var(--text-color);
   --accent-color-hover: rgba(50, 49, 45, 0.4);
   --accent-header-text-color: #FFC2E6;
-  --bg-color: #353430;
+  --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
 }
 
@@ -23,7 +23,7 @@
     --title-content-color: var(--text-color);
     --accent-color-hover: rgba(50, 49, 45, 0.4);
     --accent-header-text-color: #FFC2E6;
-    --bg-color: #353430;
+    --bg-color: #FFF1F7;
     --bg-img-header: url(../images/cover-image-light.png);
     --button-color: var(--text-color);
   }
@@ -46,7 +46,7 @@
   --title-content-color: var(--text-color);
   --accent-color-hover: rgba(50, 49, 45, 0.4);
   --accent-header-text-color: #FFC2E6;
-  --bg-color: #353430;
+  --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
   --button-color: var(--text-color);
 }

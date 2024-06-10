@@ -57,6 +57,7 @@ button:focus, a:focus {
   gap: 10px;
   display: flex;
   color: var(--button-color);
+  padding-block-end: 4px;
 }
 
 .header__theme-menu-button {
@@ -270,7 +271,10 @@ button:focus, a:focus {
     top: 20px;
   }
 
-
+  .header__theme-menu-list {
+    padding-block-end: 0;
+  }
+  
   .header__dark-decoration::after {
     top: 28px;
     right: 28px;
