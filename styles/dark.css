@@ -15,6 +15,7 @@
   --button-color: var(--accent-color);
   --title-content-color: var(--accent-color);
   --title-decor-color: var(--bg-color);
+  --decoration-color: var(--accent-color);
 }
 
 .page.theme_dark {
@@ -31,5 +32,6 @@
   --button-color: var(--accent-color);
   --title-content-color: var(--accent-color);
   --title-decor-color: var(--bg-color);
+  --decoration-color: var(--accent-color);
 }
 

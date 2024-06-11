@@ -130,7 +130,7 @@ button:focus, a:focus {
   font-family: 'IBM Plex mono', monospace, sans-serif;
   font-size: 18px;
   line-height: 1.25;
-  color: var(--accent-color);
+  color: var(--decoration-color);
   text-transform: uppercase;
 }
 
@@ -143,8 +143,8 @@ button:focus, a:focus {
   height: 9px;
   width: 9px;
   border-radius: 50%;
-  background-color: var(--accent-color);
-  box-shadow: 0 0 4px 2px var(--accent-color);
+  background-color: var(--decoration-color);
+  box-shadow: 0 0 4px 2px var(--decoration-color);
 }
 
 /* основной контент страницы */
@@ -314,7 +314,7 @@ button:focus, a:focus {
     gap: 80px;
   }
 
-  .content__article {
+  .content__article-concentration {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr min-content;
     column-gap: 37px;
@@ -348,8 +348,9 @@ button:focus, a:focus {
   }
 
   .content__article-advices {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(6, min-content);
+    column-gap: 37px;
   }
 
   .content__article-advices .content__article-question {
@@ -423,9 +424,10 @@ button:focus, a:focus {
     padding: 14px 10px 0;
   }
 
-  .content__article {
+  .content__article-concentration {
     column-gap: 20px;
   }
+  
   
   .content__article-reasons .content__article-question {
     grid-row: 1 / 2;
@@ -440,6 +442,10 @@ button:focus, a:focus {
   
   .answers-group .content__article-answer {
     grid-column: auto;
+  }
+
+  .content__article-advices {
+    column-gap: 20px;
   }
 
   .gallery-list {

@@ -12,7 +12,8 @@
   --accent-header-text-color: #FFC2E6;
   --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
-  --title-decor-color: var(var(--text-color));
+  --title-decor-color: var(--text-color);
+  --decoration-color: transparent;
 }
 
 /* Остальные стили */
@@ -27,15 +28,11 @@
     --bg-color: #FFF1F7;
     --bg-img-header: url(../images/cover-image-light.png);
     --button-color: var(--text-color);
-    --title-decor-color: var(var(--text-color));
+    --title-decor-color: var(--text-color);
+    --decoration-color: transparent;
   }
 
-  .header__dark-decoration::before,
-  .header__dark-decoration::after {
-  display: none;
-}
-
-
+  
 }
 
 .page.theme_light {
@@ -51,11 +48,6 @@
   --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
   --button-color: var(--text-color);
-  --title-decor-color: var(var(--text-color));
-}
-
-
-.theme_light .header__dark-decoration::before,
-.theme_light .header__dark-decoration::after {
-  display: none;
+  --title-decor-color: var(--text-color);
+  --decoration-color: transparent;
 }
