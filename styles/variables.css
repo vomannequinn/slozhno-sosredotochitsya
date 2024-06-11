@@ -12,5 +12,6 @@
   --bg-color: #000028;
   --bg-img-header: url(../images/cover-image-dark.png);
   --button-color: var(--accent-color);
+  --title-decor-color: var(--bg-color);
 }
 

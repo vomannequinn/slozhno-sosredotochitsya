@@ -14,6 +14,7 @@
   --bg-img-header: url(../images/cover-image-dark.png);
   --button-color: var(--accent-color);
   --title-content-color: var(--accent-color);
+  --title-decor-color: var(--bg-color);
 }
 
 .page.theme_dark {
@@ -29,5 +30,6 @@
   --bg-img-header: url(../images/cover-image-dark.png);
   --button-color: var(--accent-color);
   --title-content-color: var(--accent-color);
+  --title-decor-color: var(--bg-color);
 }
 

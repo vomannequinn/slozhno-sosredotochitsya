@@ -12,6 +12,7 @@
   --accent-header-text-color: #FFC2E6;
   --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
+  --title-decor-color: var(var(--text-color));
 }
 
 /* Остальные стили */
@@ -26,6 +27,7 @@
     --bg-color: #FFF1F7;
     --bg-img-header: url(../images/cover-image-light.png);
     --button-color: var(--text-color);
+    --title-decor-color: var(var(--text-color));
   }
 
   .header__dark-decoration::before,
@@ -49,6 +51,7 @@
   --bg-color: #FFF1F7;
   --bg-img-header: url(../images/cover-image-light.png);
   --button-color: var(--text-color);
+  --title-decor-color: var(var(--text-color));
 }
 
 
