@@ -37,6 +37,8 @@ button:focus, a:focus {
   height: 25px;
   border-left: 1px solid var(--button-color);
   border-bottom: 1px solid var(--button-color);
+  bottom: 10px;
+  left: 10px;
 }
 
 .decorated-zone::before {
@@ -46,16 +48,8 @@ button:focus, a:focus {
   height: 25px;
   border-right: 1px solid var(--button-color);
   border-top: 1px solid var(--button-color);
-}
-
-.decorated-zone::before {
   right: 10px;
   top: 10px;
-}
-
-.decorated-zone::after {
-  bottom: 10px;
-  left: 10px;
 }
 
 .header__theme-menu-list {
@@ -239,13 +233,10 @@ button:focus, a:focus {
   align-items: center;
   block-size: 100vh;
   min-block-size: 668px;
-  position: relative;
 }
 
 
-
 @media (min-width: 768px) {
-
   .header {
     grid-template-rows: repeat(6, 1fr);
   }
