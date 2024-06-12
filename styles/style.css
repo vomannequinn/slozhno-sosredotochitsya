@@ -29,10 +29,18 @@ button:focus, a:focus {
   min-block-size: 668px;
 }
 
-.header::before {
+
+.decorated-zone::after {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-left: 1px solid var(--button-color);
+  border-bottom: 1px solid var(--button-color);
+}
+
+.decorated-zone::before {
+  position: absolute;
   content: "";
   width: 25px;
   height: 25px;
@@ -40,15 +48,14 @@ button:focus, a:focus {
   border-top: 1px solid var(--button-color);
 }
 
-.header::after {
-  position: absolute;
+.decorated-zone::before {
+  right: 10px;
+  top: 10px;
+}
+
+.decorated-zone::after {
   bottom: 10px;
   left: 10px;
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-left: 1px solid var(--button-color);
-  border-bottom: 1px solid var(--button-color);
 }
 
 .header__theme-menu-list {
@@ -226,6 +233,7 @@ button:focus, a:focus {
 }
 
 .footer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -234,27 +242,7 @@ button:focus, a:focus {
   position: relative;
 }
 
-.footer::before {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-right: 1px solid var(--button-color);
-  border-top: 1px solid var(--button-color);
-}
 
-.footer::after {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  content: "";
-  width: 25px;
-  height: 25px;
-  border-left: 1px solid var(--button-color);
-  border-bottom: 1px solid var(--button-color);
-}
 
 @media (min-width: 768px) {
 
@@ -267,14 +255,12 @@ button:focus, a:focus {
     margin-inline-end: 10px;
   }
 
-  .header::after,
-  .footer::after {
+  .decorated-zone::after {
     bottom: 20px;
     left: 20px;
   }
 
-  .header::before,
-  .footer::before {
+  .decorated-zone::before {
     right: 20px;
     top: 20px;
   }
@@ -337,7 +323,6 @@ button:focus, a:focus {
     grid-template-rows: min-content 1fr;
 
   }
-
   .content__article-reasons .content__article-question {
     grid-row: 1 / 2;
   }
@@ -428,7 +413,6 @@ button:focus, a:focus {
     column-gap: 20px;
   }
   
-  
   .content__article-reasons .content__article-question {
     grid-row: 1 / 2;
   }
@@ -437,7 +421,6 @@ button:focus, a:focus {
     grid-template-columns: repeat(3, 1fr);
     grid-column-start: 1;
     gap: 20px;
-    
   }
   
   .answers-group .content__article-answer {
